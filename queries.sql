@@ -42,3 +42,16 @@ elevado de hospedagens em hotéis urbanos,
 o que nos leva a concluir que possivelmente
 acontece "overbooking" nesses hotéis.
 '''
+
+select
+	avg(all_sum_column)
+from base
+where country = 'DEU'
+and arrival_date_year = '2017';
+
+'''
+Notamos que a média de todas as idades foi 42,
+o que indica pouca hospedagem de crianças e bebês.
+Baseado nisso, percebemos que falta algum atrativo
+familiar para atrair mais hóspedes do tipo.
+'''
