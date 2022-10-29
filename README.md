@@ -1,6 +1,6 @@
-# <center>  Análise Exploratória - Dados de Hotéis
+# <p align="center">Análise Exploratória - Dados de Hotéis</p>
 
-<center><img src='https://i.imgur.com/CVogXrs.png'>
+<p align="center"><img src='https://i.imgur.com/CVogXrs.png'>
 
 # Introdução
 
@@ -15,7 +15,7 @@ Para começar nossa análise, criaremos uma base de dados para inserção do Dat
 
 Abaixo, você poderá notar o banco de dados conectado, e o nosso dataset importado com o nome de "base", nele contemos todas as informações necessárias para a análise. 
 
-<center><img src ='https://i.imgur.com/axxBBM6.png' width='300'>
+<p align="center"><img src ='https://i.imgur.com/axxBBM6.png' width='300'>
 
 # Limpeza e Tratamento dos Dados
 
@@ -36,7 +36,7 @@ group by country
 order by bookings desc
 limit 5;
 ```
-<center><img src='https://i.imgur.com/mDE15mx.png' width='400'>
+<p align="center"><img src='https://i.imgur.com/mDE15mx.png' width='400'>
 
 Podemos perceber que a maioria das reservas acontece em
 território Europeu, com Portugal liderando.
@@ -59,7 +59,7 @@ limit 1;
 
 ```
 
-<center><img src='https://i.imgur.com/usyVdYa.png' width='400'>
+<p align="center"><img src='https://i.imgur.com/usyVdYa.png' width='400'>
 
 O local mais procurado no carnaval foi também Portugal,
 visto que o lugar é um ponto turístico popular em qualquer
@@ -69,7 +69,7 @@ ranking de países com mais Hotéis de toda a Europa (como relatado na [fonte](h
 que realmente pode indicar ocorrer Overbooking nesses
 locais.
 
-<center><img src='https://i.imgur.com/dkS3YHu.png'>
+<p align="center"><img src='https://i.imgur.com/dkS3YHu.png'>
 
 # Query #3
 
@@ -83,7 +83,7 @@ from base
 group by hotel;
 ```
 
-<center><img src='https://i.imgur.com/jwggHly.png' width='300'>
+<p align="center"><img src='https://i.imgur.com/jwggHly.png' width='300'>
 
 Podemos perceber que a maior porcentagem
 de cancelamentos ocorre em hotéis urbanos.
@@ -112,7 +112,7 @@ where country = 'DEU'
 and arrival_date_year = '2017';
 ```
 
-<center><img src='https://i.imgur.com/CfHCP4t.png' width='150'>
+<p align="center"><img src='https://i.imgur.com/CfHCP4t.png' width='150'>
 
 Notamos que a média de todas as idades foi 42, o que indica pouca hospedagem de crianças e bebês. Baseado nisso, percebemos que falta algum atrativo familiar para atrair mais hóspedes do tipo.
 
