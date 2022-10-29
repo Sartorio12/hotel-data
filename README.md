@@ -11,7 +11,7 @@ A base de dados a ser utilizada será a "[Hotel Booking Demand](https://www.kagg
 
 Todas as informações de identificação pessoal foram removidas dos dados. 
 
-Para começar nossa análise, criaremos uma base de dados para inserção do Dataset e consulta do mesmo. Utilizando o banco de dados PostgreSQL, o versionador de base DBeaver e a biblioteca Pandas do Python, para a limpeza e tratamento de dados faltantes. Caso você queira conferir os dados pessoalmente, é fundamental que você possua os mesmos instalados e configurados.
+Para começar nossa análise, criaremos uma base de dados para inserção do Dataset e consulta do mesmo. Utilizando o banco de dados PostgreSQL, o versionador de base DBeaver e a biblioteca Pandas do Python, para a limpeza e tratamento de dados faltantes. Caso você queira conferir os dados pessoalmente, é fundamental que você possua os mesmos instalados e configurados. Além disso, você também pode encontrar aqui o arquivo .sql contendo todas as consultas feitas.
 
 Abaixo, você poderá notar o banco de dados conectado, e o nosso dataset importado com o nome de "base", nele contemos todas as informações necessárias para a análise. 
 
